@@ -1,6 +1,8 @@
 import json
 
-from plugins.gtts_text_to_speech import GTTSTextToSpeech
+from .plugins.gtts_text_to_speech import GTTSTextToSpeech
+from .plugins.auto_tts import AutoTextToSpeech
+# ... (Import the rest of the plugins similarly, adding ".plugins." before each plugin)
 from plugins.auto_tts import AutoTextToSpeech
 from plugins.dice import DicePlugin
 from plugins.youtube_audio_extractor import YouTubeAudioExtractorPlugin
